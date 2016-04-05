@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">BetterLife</string>
+
+    <string name="app_name3">Food</string>
+    <string name="app_name2">House Keeping</string>
+    <string name="app_namePC">Personal Care</string>
+
+    <string name="app_name5">Career Oriented</string>
+    <string name="app_name4">Job Oriented</string>
+
+    <string name="app_name6">Social Entertainment</string>
+    <string name="app_name7">Private Entertainment</string>
+    <string name="app_name8">RelationShips</string>
+    <string name="app_name9">Soul Development</string>
+
+    <string name="action_settings">Share</string>
+    <string name="mood">Mood</string>
+    <string name="fitness">Fitness</string>
+    <string name="concentration">Concentration</string>
+    <string name="loves">Love</string>
+    <string name="depression">Depression</string>
+    <string name="social">Social</string>
+    <string name="oneHour">1 hour</string>
+    <string name="twoHour">2 hour</string>
+    <string name="threeHour">3 hour</string>
+    <string name="FOURHour">4 hour</string>
+    <string name="thirtyMinutes">30 Minutes</string>
+    <string name="fifteenMinutes">15 Minutes</string>
+    <string name="title_activity_schedulr">Schedulr</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="intro_message">
+
+! This App Is Created To Manage Your Work And Personal Time.
+ Instead  Of Doing Nothing On Holidays It Contains Suggestions That Will Change Your Perception Towards Life.
+Inactivity Is Main Reason Behind Many Physical and Mental Issues.
+ More Detailed Description On Upper Left Action Menu Tap On Help To Get Help On Various Activities.
+</string>
+
+    <string name="intro_messageScore">This Page Contains Your Progress Till Today Every Action Increase Or Decreases Some VAlues. Long CLick Initiates Action ANd Single CLick Initiates Alert Dialouge FOr Description</string>
+    <string name="five">This Button REmoves 5 pointd From All Categories. Keep presssed that Button To continue  </string>
+    <string name="zero">This Button Resets All Categories to zero. Keep presssed that Button To continue. All progress Will Be Lost  </string>
+    <string name="start_text">Start Alarm</string>
+    <string name="cancel_text">Cancel Alarm</string>
+    <string name="doodle_alert">Doodle Alert</string>
+    <string name="doodle_found">There is a Google doodle today!!</string>
+    <string name="no_doodle">No Google doodle today.</string>
+    <string name="connection_error">Connection error.</string>
+    <string name="detail">Detail</string>
+    <string name="setting">Setting</string>
+
+
+</resources>

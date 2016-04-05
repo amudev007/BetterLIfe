@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:scrollbars="none"
+    android:textSize="@dimen/font_size"
+    android:textStyle="bold"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="50dp"
+
+    android:layout_marginTop="50dp"
+    android:transitionGroup="false"
+    android:background="@color/colorB"
+  >
+
+    <GridLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:rowCount="6"
+        android:divider="@android:drawable/presence_offline"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="www.pointed.com.counter.MainActivity"
+        tools:showIn="@layout/activity_main">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:layout_margin="50dp"
+            android:text="@string/loves" />
+
+        <TextView
+            android:id="@+id/love"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="50dp"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:text="@string/loves" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:layout_margin="50dp"
+
+            android:text="@string/social" />
+
+        <TextView
+            android:id="@+id/social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="50dp"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:text="social" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:layout_margin="50dp"
+
+            android:text="@string/mood" />
+
+        <TextView
+            android:id="@+id/mood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="50dp"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:text="mood!" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:layout_margin="50dp"
+         
+            android:text="@string/fitness" />
+
+        <TextView
+            android:id="@+id/fitness"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="50dp"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:text="fitness" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:layout_margin="50dp"
+         
+            android:text="@string/concentration" />
+
+        <TextView
+            android:id="@+id/concentration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="50dp"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:text="concentration" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:layout_margin="50dp"
+         
+            android:text="@string/depression" />
+
+        <TextView
+            android:id="@+id/depression"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="50dp"
+            android:textSize="@dimen/font_size"
+            android:textStyle="bold"
+            android:text="@string/depression" />
+
+
+    </GridLayout>
+
+
+</ScrollView>
